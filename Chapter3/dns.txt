@@ -1,0 +1,101 @@
+{ lookup: 
+   { [Function: lookup]
+     [length]: [33m3[39m,
+     [name]: [32m'lookup'[39m,
+     [prototype]: lookup { [constructor]: [36m[Circular][39m } },
+  lookupService: 
+   { [Function]
+     [length]: [33m3[39m,
+     [name]: [32m''[39m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  resolve4: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolve6: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolveCname: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolveMx: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolveNs: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolveTxt: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolveSrv: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolveNaptr: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolveSoa: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  reverse: 
+   { [Function: query]
+     [length]: [33m2[39m,
+     [name]: [32m'query'[39m,
+     [prototype]: query { [constructor]: [36m[Circular][39m } },
+  resolve: 
+   { [Function]
+     [length]: [33m3[39m,
+     [name]: [32m''[39m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  getServers: 
+   { [Function]
+     [length]: [33m0[39m,
+     [name]: [32m''[39m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  setServers: 
+   { [Function]
+     [length]: [33m1[39m,
+     [name]: [32m''[39m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  ADDRCONFIG: [33m1024[39m,
+  V4MAPPED: [33m2048[39m,
+  NODATA: [32m'ENODATA'[39m,
+  FORMERR: [32m'EFORMERR'[39m,
+  SERVFAIL: [32m'ESERVFAIL'[39m,
+  NOTFOUND: [32m'ENOTFOUND'[39m,
+  NOTIMP: [32m'ENOTIMP'[39m,
+  REFUSED: [32m'EREFUSED'[39m,
+  BADQUERY: [32m'EBADQUERY'[39m,
+  BADNAME: [32m'EBADNAME'[39m,
+  BADFAMILY: [32m'EBADFAMILY'[39m,
+  BADRESP: [32m'EBADRESP'[39m,
+  CONNREFUSED: [32m'ECONNREFUSED'[39m,
+  TIMEOUT: [32m'ETIMEOUT'[39m,
+  EOF: [32m'EOF'[39m,
+  FILE: [32m'EFILE'[39m,
+  NOMEM: [32m'ENOMEM'[39m,
+  DESTRUCTION: [32m'EDESTRUCTION'[39m,
+  BADSTR: [32m'EBADSTR'[39m,
+  BADFLAGS: [32m'EBADFLAGS'[39m,
+  NONAME: [32m'ENONAME'[39m,
+  BADHINTS: [32m'EBADHINTS'[39m,
+  NOTINITIALIZED: [32m'ENOTINITIALIZED'[39m,
+  LOADIPHLPAPI: [32m'ELOADIPHLPAPI'[39m,
+  ADDRGETNETWORKPARAMS: [32m'EADDRGETNETWORKPARAMS'[39m,
+  CANCELLED: [32m'ECANCELLED'[39m }
