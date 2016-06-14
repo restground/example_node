@@ -6,20 +6,28 @@ var ip;
 
 var interface = readline.createInterface(process.stdin, process.stdout, null);
 
-var start =	interface.question('Please input the domain > ', function(answer){
+function startInterface(){
+	interface.question('Please input the domain > ', function(answer){
+		if(answer == '.exit') {
+			closeInterface();
+			return;
+		}
 		dns.lookup(answer, function(err, addr){
 			if(err) {
 				throw err;
 			}
 			ip = addr;
 			console.log('ip address of '+answer +' : ' + ip);
-			dns.reverse(ip, function(err, domains){
-				domains.forEach(function(domain){
-					console.log(domain);
-					start();
-				});
-			});
+			startInterface();
 		});
-	});	
+	});
+}
+
+function closeInterface(){
+	console.log('Bye, Bye!');
+	process.exit();
+}
+
+startInterface();
 
 
